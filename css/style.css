@@ -1,0 +1,1249 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html{
+  font-size: 62.5%;
+}
+
+
+body {
+  margin: 0;
+}
+
+/* section, header, footer, main{ 
+  border: 1px solid blue;
+} */
+
+header>nav li>a{
+  text-decoration: none;
+  color: black;
+
+}
+
+.main-1{
+  background: rgb(242, 243, 245);
+}
+
+.main-1a{
+  padding: 55px 5%;
+}
+
+.main-1b{
+  padding-top: 46px;
+}
+
+.main-2a h2{
+  font-size: 3.8rem;
+  text-align: center;
+  font-weight: 600;
+
+}
+
+.pink{
+  width: 60%;
+  background-color: pink;
+  height: 8px;
+}
+
+.main-2ba{
+  width: 50%;
+  float: left;
+  font-size: 1.8rem;
+}
+
+.main-2ba p>span{
+  font-weight: 700;
+}
+
+.main-2c{
+  text-align: center;
+}
+
+.main-2c p{
+  font-size: 1.8rem;
+  font-style: italic;
+  color:rgb(156, 167, 174);
+  padding: 0px 8%;
+}
+
+.main-2{
+  padding: 25px 20% 70px 20%;
+}
+ 
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header nav{
+  width: 100%;
+}
+
+.apply{
+  color: white;
+  height: 35px;
+  width: 75%;
+  background-color: rgb(51, 57, 66);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+
+
+header, footer, main, main section {
+  width: 100%;
+}
+
+.main-1a, .main-1b, .main-5a, .main-5b, .footer-bot1, .footer-bot2{
+  width: 50%;
+  float: left;
+}
+
+.main-2a, .main-2b, .main-2c, .main-4a, .main-4b, .main-4c, .footer-bot, .footer-top, .main-1aa, .main-1ab, .main-1ac{
+  width: 100%;
+  float: left;
+}
+
+.main-3a, .main-3b, .footer-top1, .footer-top2, .footer-bot1a, .footer-bot1b, .footer-bot1c, .main-4ba, .main-4bb{
+  float: left;
+}
+
+.main-3a{
+  width: 55%;
+  padding: 0px 3% 0 0%;
+}
+
+.main-3b {
+  width: 45%;
+  text-align: center;
+}
+
+.main-4ba{
+  text-align: center;
+  padding: 15px 0%;
+}
+
+
+.main-4bb{
+  width: 75%;
+}
+
+.main-4ba{
+  width: 25%;
+}
+
+.footer-bot1a, .footer-bot1b, .footer-bot1c{
+  width: 33.3333%;
+}
+
+.main-3b span{
+  display: block;
+  font-size: 1.5rem;
+  color: rgb(173, 183, 188);
+  font-style: italic;
+  padding-top: 7px;
+}
+
+.main-3b section{
+  padding: 20px 0%;
+}
+
+
+
+footer {
+
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+header ul>li{
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  margin: 0px 1%;
+  font-size: 1.6rem;
+  width: 10%;
+}
+
+.main-1aa, .main-1b{
+  text-align: center;
+}
+
+.main-1aa img{
+  width: 35%;
+  height: 95px;
+}
+
+.main-1b img{
+  width: 50%;
+  height: 445px;
+}
+
+h1{
+  font-size: 3.8rem;
+  font-weight: 400;
+}
+.main-1ab p{
+  font-size: 2.75rem;
+  font-weight: 300;
+}
+
+.main-1ac{
+  font-size: 1.5rem;
+}
+
+.email{
+  color: rgb(211, 219, 226);
+  width: 70%;
+  padding: 6px 10px;
+}
+
+.email, .submit{
+  border-radius: 5%;
+  height: 45px;
+}
+
+.submit{
+  width: 25%;
+  padding: 2px 12px;
+  color: white;
+  background: rgb(184, 197, 207);
+  margin-left: 3%;
+  font-size: 1.9rem;
+}
+
+.main-3a h2{
+  font-size: 3.5rem;
+}
+
+.main-3a p{
+  font-size: 1.95rem;
+  line-height: 1.5;
+}
+
+.main-3{
+  padding: 30px 5% 50px 5%;
+  background: rgb(241, 243, 245);
+}
+
+.main-3b img{
+  width: 70%;
+}
+
+.main-4a{
+  font-size: 3rem;
+  text-align: center;
+}
+
+.main-4{
+  padding: 50px 5%;
+}
+
+.main-4ba img{
+  width: 50%;
+}
+
+.main-4b{
+  border: 1px solid rgb(241, 243, 245);
+}
+
+.main-4bb h4{
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.main-4b{
+  margin-bottom: 30px;
+}
+
+
+.main-4bb p, .main-4ca p, .main-4cb p{
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.main-4ca h3{
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding-bottom: 0;
+  color: rgb(146, 150, 151);
+}
+
+
+
+.main-4ca, .main-4cb{
+  width: 50%;
+  float: left;
+  padding-right: 5%;
+}
+
+.main-5, .footer-top, .footer-bot {
+  padding: 0px 5%;
+}
+
+.main-5{
+  background: rgb(184, 197, 208);
+  padding: 15px 0%;
+}
+
+footer{
+  background: rgb(143, 156, 163);
+}
+
+.main-5a{
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: white;
+  padding: 11px 0% 11px 7%
+}
+
+
+.email-2, .submit-2{
+  border-radius: 5%;
+  height: 45px;
+}
+
+.submit-2{
+  width: 20%;
+  padding: 2px 12px;
+  color: white;
+  background: rgb(143, 156, 163);
+  margin-left: 3%;
+  font-size: 1.7rem;
+}
+
+.email-2{
+  color: rgb(211, 219, 226);
+  width: 50%;
+  padding: 6px 10px;
+  font-size: 1.5rem;
+}
+
+
+.footer-top1{
+  font-size: 1.6rem;
+  width: 50%;
+}
+
+footer{
+  color: white;
+  padding: 5px 0%;
+}
+
+.footer-bot ul, .footer-top ul{
+  list-style: none;
+}
+
+.footer-top a, .footer-bot a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.55rem;
+  font-weight: 300;
+}
+
+.footer-bot2 li, .footer-top2 li{
+  display: inline-block
+}
+
+
+.footer-bot1, .footer-bot2{
+  border-top: 1px solid white;
+}
+
+.footer-top2 li{
+  width: 15%;
+}
+
+.footer-top2{
+  padding: 5px 0% 7px 0%;
+  width: 50%;
+}
+
+.footer-top2 ul, .footer-bot2 ul{
+  text-align: right;
+}
+
+.footer-bot2 li{
+  width: 24%;
+}
+
+.list-head a{
+  font-weight: 700;
+}
+
+.hid-ham{
+  display: none;
+}
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1639px) {
+  .main-1a{
+    padding: 56px 4%;
+  }
+
+  .main-2{
+    padding: 50px 12% 70px 12%;
+  }
+
+  .main-3{
+    padding: 30px 3% 50px 3%;
+  }
+
+  .main-1b img {
+    width: 55%;
+    height: 445px;
+  }
+  
+}
+
+@media screen and (max-width: 1574px){
+  .main-1b img {
+      width: 55%;
+      height: 445px;
+  }
+}
+
+
+@media screen and (max-width: 1561px) {
+  .main-1a{
+    padding: 56px 3%;
+  }
+
+  .main-2{
+    padding: 50px 12% 70px 12%;
+  }
+
+  .footer-top2 li{
+    width: 25%;
+  }
+  .main-3{
+    padding: 30px 3% 50px 3%;
+  }
+
+  .main-1b img {
+    width: 55%;
+    height: 445px;
+  }
+  
+}
+
+@media screen and (max-width: 1490px) {
+  .main-1a{
+    padding: 56px 2%;
+  }
+
+  .main-2{
+    padding: 50px 12% 70px 12%;
+  }
+
+  .main-3{
+    padding: 30px 3% 50px 3%;
+  }
+
+  .main-1b img {
+    width: 55%;
+    height: 445px;
+  }
+
+  .main-3b section {
+    float: left;
+    width: 50%;
+  }
+
+  .main-3a, .main-3b {
+    width: 100%;
+  }
+
+  .main-3a h2{
+    text-align: center;
+    font-size: 2.8rem;
+  }
+
+  .main-3b img {
+    width: 75%;
+  }
+
+}
+
+@media screen and (max-width: 1425px) {
+  .main-1a{
+    padding: 56px 1%;
+  }
+
+  .main-3b img {
+    width: 75%;
+  }
+  .email{
+    width: 70%;
+    padding: 6px 10px;
+  }
+  
+  .email, .submit{
+    border-radius: 5%;
+    height: 45px;
+  }
+  
+  .submit{
+    width: 25%;
+    padding: 2px 12px;
+    margin-left: 3%;
+    font-size: 1.5rem;
+  }
+
+
+}
+
+@media screen and (max-width: 1366px) {
+  
+
+  .main-2{
+    padding: 50px 10% 70px 10%;
+  }
+
+  .main-2a h2 {
+    font-size: 2.6rem;
+    font-weight: 600;
+  }
+
+  .main-3{
+    padding: 30px 3% 50px 3%;
+  }
+
+  .main-1b{
+    display: none;
+  }
+
+  .main-1b{
+    display: none;
+  }
+
+  .main-1a{
+    width: 100%;
+  }
+
+  .main-1ab h1{
+    font-size: 3.2rem;
+    text-align: center;
+  }
+
+  .main-1ab p{
+    font-size: 2.1rem;
+    text-align: center;
+  }
+
+  .main-1a {
+    padding: 56px 2%;
+  }
+
+  .main-1ac {
+    text-align: center;
+  }
+
+  .main-3b section {
+    float: left;
+    width: 50%;
+  }
+
+  .main-3a, .main-3b {
+    width: 100%;
+  }
+
+  .main-3a h2{
+    text-align: center;
+    font-size: 2.8rem;
+  }
+
+  .main-3a p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .main-3b img {
+    width: 75%;
+  }
+
+  
+  .main-4ba, .main-4bb {
+    width: 100%;
+  }
+
+  .main-4bb h4, .main-4bb p {
+    text-align: center;
+  }
+
+  .main-4ba img {
+    width: 35%;
+  }
+
+
+  .main-4ca, .main-4cb {
+    width: 100%;
+    padding: 0;
+  }
+
+  .main-4ca h3 {
+    margin-top: 12px;
+    margin-bottom: 1px;
+    font-size: 1.9rem;
+  }
+
+  .main-1aa img {
+    width: 35%;
+    height: 100px;
+  } 
+
+  .main-4ca h3 {
+    text-align: center;
+  }
+
+  .main-4ca p, .main-4cb p {
+    font-size: 1.5rem;
+    text-align: center;
+  }  
+
+  .main-4cb img {
+    padding: 0px 41%;
+  }
+
+  .email{
+    width: 70%;
+    padding: 6px 10px;
+  }
+  
+  .email, .submit{
+    border-radius: 5%;
+    height: 45px;
+  }
+  
+  .submit{
+    width: 25%;
+    padding: 2px 12px;
+    margin-left: 3%;
+    font-size: 1.5rem;
+  }
+
+  .email{
+    width: 70%;
+    padding: 6px 10px;
+  }
+  
+  .email, .submit{
+    border-radius: 5%;
+    height: 45px;
+  }
+  
+  .submit{
+    width: 25%;
+    padding: 2px 12px;
+    margin-left: 3%;
+    font-size: 1.5rem;
+  }
+
+
+}
+
+@media screen and (min-width: 844px) and (max-width: 1365px) {
+  .footer-top1 {
+    font-size: 1.5rem;
+  }
+
+  .email-2 {
+    color: rgb(211, 219, 226);
+    width: 69%;
+    padding: 3px 5%;
+    font-size: 1.2rem;
+  }
+
+  .email-2, .submit-2 {
+    border-radius: 5%;
+    height: 35px;
+  }
+
+  .submit-2 {
+    width: 24%;
+    padding: 1px 1%;
+    color: white;
+    background: rgb(143, 156, 163);
+    margin-left: 3%;
+    font-size: 1.2rem;
+  }
+
+}
+
+@media screen and (max-width: 843px) {
+  .footer-top1 {
+    font-size: 1.35rem;
+    padding-top: 8px;
+  }
+
+  .footer-top2 li {
+    width: 30%;
+  }
+
+  .hid-ham {
+    display: block;
+    width: 50%;
+    text-align: left;
+    float: left;
+  }
+
+  .apply-box {
+    width: 46%;
+    text-align: right;
+    padding-left: 15%;
+  } 
+  .hide-menu{
+    display: none;
+  }
+
+  header nav>ul{
+    padding: 0;
+  }
+
+  .email-2 {
+    color: rgb(211, 219, 226);
+    width: 69%;
+    padding: 3px 5%;
+    font-size: 1.2rem;
+  }
+
+  .email-2, .submit-2 {
+    border-radius: 5%;
+    height: 35px;
+  }
+
+  .submit-2 {
+    width: 24%;
+    padding: 1px 1%;
+    color: white;
+    background: rgb(143, 156, 163);
+    margin-left: 3%;
+    font-size: 1.2rem;
+  }
+
+}
+
+@media screen and (max-width: 765px) {
+  .footer-top1 {
+    font-size: 1rem;
+    padding-top: 8px;
+  }
+
+  .footer-top2 li {
+    width: 30%;
+  }
+
+  .list-head a {
+    font-size: 1.2rem;
+  }
+
+  .email-2 {
+    color: rgb(211, 219, 226);
+    width: 69%;
+    padding: 3px 5%;
+    font-size: 1.2rem;
+  }
+
+  .email-2, .submit-2 {
+    border-radius: 5%;
+    height: 35px;
+  }
+
+  .submit-2 {
+    width: 24%;
+    padding: 1px 1%;
+    color: white;
+    background: rgb(143, 156, 163);
+    margin-left: 3%;
+    font-size: 1.2rem;
+  }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .hid-ham{
+    display: block;
+    width: 50%;
+    text-align: left;
+    float: left;
+  }
+
+  header nav>ul{
+    padding: 0;
+  }
+
+  .apply-box{
+    width: 46%;
+    text-align: right;
+    padding-left: 15%;
+  }
+
+  .hide-menu{
+    display: none;
+  }
+
+  header nav>ul:nth-child(9){
+    display: block;
+  }
+
+  .main-1b{
+    display: none;
+  }
+
+  .main-1a{
+    width: 100%;
+  }
+
+  .main-1ab h1{
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .main-1ab p{
+    font-size: 2.1rem;
+    text-align: center;
+  }
+
+  .main-1ac {
+    text-align: center;
+  }
+
+  .main-2, .main-1a {
+    padding: 0px 3%;
+  }
+
+  .main-2a h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .main-2ba div{
+    height: 3px;
+  }
+
+  .main-2ba{
+  padding-left: 6%;
+  }
+
+  .main-2ba p, .main-2c p{
+    font-size: 1.4rem;
+  }
+
+  .email{
+    width: 50%;
+    padding: 6px 10px;
+  }
+  
+  .email, .submit{
+    border-radius: 5%;
+    height: 35px;
+  }
+  
+  .submit{
+    width: 20%;
+    padding: 2px 12px;
+    margin-left: 3%;
+    font-size: 1.5rem;
+  }
+
+  .main-1aa img {
+    width: 55%;
+    height: 90px;
+  }
+
+  .main-3a{
+    width: 100%;
+  }
+
+  .main-3a h2, .main-4a{
+    text-align: center;
+    font-size: 2.8rem;
+  }
+
+  .main-3a p{
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .main-3b {
+    width: 100%
+  }
+
+  .main-3b section{
+    float: left;
+    width: 50%
+  }
+
+  .main-3b img {
+    width: 85%;
+  }
+
+  .main-4ba, .main-4bb{
+    width: 100%;
+  }
+
+  .main-4ba img {
+    width: 35%;
+  }
+
+  .main-4bb h4, .main-4bb p{
+    text-align: center;
+  }
+
+  .main-4bb p{
+    font-size: 1.3rem;
+  }
+
+  .main-4c{
+    width: 100%;
+    text-align: left;
+  }
+
+  .main-4ca h3{
+    margin-top: 12px;
+    margin-bottom: 1px;
+    font-size: 1.7rem;
+
+  }
+
+  .main-4ca h3 {
+    text-align: center;
+  }
+
+  .main-4cb img{
+    padding: 0px 37%;
+  }
+
+  .main-4ca, .main-4cb{
+    width: 100%;
+    padding: 0;
+  }
+
+  .main-4ca p, .main-4cb p{
+    font-size: 1.3rem;
+    text-align: center;
+  
+  }
+
+  .main-5a{
+    font-size: 1.4rem;
+  }
+
+  
+  .email-2, .submit-2{
+  border-radius: 5%;
+  height: 35px;
+  }
+
+  .submit-2{
+  width: 24%;
+  padding: 1px 1%;
+  color: white;
+  background: rgb(143, 156, 163);
+  margin-left: 3%;
+  font-size: 1.2rem;
+  }
+
+  .email-2{
+  color: rgb(211, 219, 226);
+  width: 69%;
+  padding: 3px 5%;
+  font-size: 1.2rem;
+  }
+
+  .social a, .home a {
+  font-size: 1.3rem;
+
+  }
+
+  .footer-top2 a, .footer-top1 p{
+  font-size: 0.99rem;
+  }
+
+  .footer-top2 ul, .footer-bot ul{
+  margin: 0;
+  padding: 0;
+  }
+
+  .footer-top1, .footer-top2{
+  width: 50%;
+  }
+
+  .footer-top2{
+  padding: 0px 0%;
+
+  }
+
+  .social{
+  padding-bottom: 26px;
+  padding-top: 8px;
+  }
+
+
+  .footer-top2 li{
+  width: 32%;
+  }
+
+  
+}
+
+
+@media screen and (max-width: 550px) {
+  .hid-ham{
+    display: block;
+    width: 50%;
+    text-align: left;
+    float: left;
+  }
+
+  header nav>ul{
+    padding: 0;
+  }
+
+  .apply-box{
+    width: 46%;
+    text-align: right;
+    padding-left: 15%;
+  }
+
+  .hide-menu{
+    display: none;
+  }
+
+  header nav>ul:nth-child(9){
+    display: block;
+  }
+
+  .main-1b{
+    display: none;
+  }
+
+  .main-1a{
+    width: 100%;
+  }
+
+  .main-1ab h1{
+    font-size: 2.7rem;
+    text-align: center;
+  }
+
+  .main-1ab p{
+    font-size: 2.1rem;
+    text-align: center;
+  }
+
+  .main-1ac {
+    text-align: center;
+  }
+
+  .main-2, .main-1a {
+    padding: 0px 3%;
+  }
+
+  .main-2a h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .main-2ba div{
+    height: 3px;
+  }
+
+  .main-2ba{
+  padding-left: 6%;
+  }
+
+  .main-2ba p, .main-2c p{
+    font-size: 1.4rem;
+  }
+
+  .email{
+    width: 50%;
+    padding: 6px 10px;
+  }
+  
+  .email, .submit{
+    border-radius: 5%;
+    height: 35px;
+  }
+  
+  .submit{
+    width: 20%;
+    padding: 2px 12px;
+    margin-left: 3%;
+    font-size: 1.5rem;
+  }
+
+  .main-1aa img {
+    width: 55%;
+    height: 90px;
+  }
+
+  .main-3a{
+    width: 100%;
+  }
+
+  .main-3a h2, .main-4a{
+    text-align: center;
+    font-size: 2.8rem;
+  }
+
+  .main-3a p{
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .main-3b {
+    width: 100%
+  }
+
+  .main-3b section{
+    float: left;
+    width: 50%
+  }
+
+  .main-3b img {
+    width: 90%;
+  }
+
+  .main-4ba, .main-4bb{
+    width: 100%;
+  }
+
+  .main-4ba img {
+    width: 35%;
+  }
+
+  .main-4bb h4, .main-4bb p{
+    text-align: center;
+  }
+
+  .main-4bb p{
+    font-size: 1.3rem;
+  }
+
+  .main-4c{
+    width: 100%;
+    text-align: left;
+  }
+
+  .main-4ca h3{
+    margin-top: 12px;
+    margin-bottom: 1px;
+    font-size: 1.7rem;
+
+  }
+
+  .main-4ca h3 {
+    text-align: center;
+  }
+
+  .main-4cb img{
+    padding: 0px 37%;
+  }
+
+  .main-4ca, .main-4cb{
+    width: 100%;
+  }
+
+  .main-4ca p, .main-4cb p{
+    font-size: 1.3rem;
+    text-align: center;
+  
+  }
+
+  .main-5a{
+    font-size: 1.4rem;
+  }
+
+  
+  .email-2, .submit-2{
+  border-radius: 5%;
+  height: 35px;
+  }
+
+  .submit-2{
+  width: 24%;
+  padding: 1px 1%;
+  color: white;
+  background: rgb(143, 156, 163);
+  margin-left: 3%;
+  font-size: 1.2rem;
+  }
+
+  .email-2{
+  color: rgb(211, 219, 226);
+  width: 69%;
+  padding: 3px 5%;
+  font-size: 1.2rem;
+  }
+
+  .social a, .home a {
+  font-size: 1.3rem;
+
+  }
+
+  .footer-top2 a, .footer-top1 p{
+  font-size: 0.95rem;
+  }
+
+  .footer-top2 ul, .footer-bot ul{
+  margin: 0;
+  padding: 0;
+  }
+
+  .footer-top1, .footer-top2{
+  width: 50%;
+  }
+
+
+  .footer-top2{
+  padding: 0px 0%;
+
+  }
+
+  .social{
+    padding-bottom: 20px;
+    padding-top: 18px;
+  }
+
+
+
+  .footer-top2 li{
+  width: 32%;
+  }
+
+  
+}
