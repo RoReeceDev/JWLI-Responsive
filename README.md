@@ -1,6 +1,6 @@
 # JWLI-Responsive
 
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+A fully responsive template for the Japanese Woman's Leadership Institute. 
 
 Link to project: https://jwli-responsive-template.netlify.app/
 
@@ -8,15 +8,12 @@ Link to project: https://jwli-responsive-template.netlify.app/
 
 
 
-How It's Made:
-Tech used: HTML, CSS, JavaScript, Framework of choice
+## How It's Made
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write something. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+Tech used: HTML, CSS
 
-Optimizations
-(optional)
+To create this template site based on the design image given to me, I used multiple sections. I used float to have the sections stack on each other the way I wanted. I used a form with and input and submit button in the first section of the page and at the time of the footer. For the header I used a nav element and and for the footer, I split it into three sections with varying widths and then split the bottom section of the footer into 4 sections to separate the content more efficiently.
 
-You don't have to include this section but interviewers love that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are GREAT to bring up in interviews and you can use this section as reference when studying for technical interviews!
+## Lessons Learned:
 
-Lessons Learned:
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those whoa this is awesome or wow I actually did it! moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+In this project, I learn how to property use divs for styling. Ilearned how to struture a more indepth footer. Finally, I learned what content decisions to make when making a site responsive.
